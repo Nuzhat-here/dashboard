@@ -43,7 +43,7 @@ const uesrSalesData: SalesProps[] = [
   {
     name: "Faiyaz Islam",
     email: "faiyaz@yy.ventures",
-    saleAmount: "Attended the global meeting for McKingsy's annual audit"
+    saleAmount: "Attended the global meet for McKingsy's audit"
   },
 
   {
@@ -55,7 +55,7 @@ const uesrSalesData: SalesProps[] = [
   {
     name: "Osman Dhali",
     email: "osman@yy.ventures",
-    saleAmount: "Completed the front-end design of the SBYS23 website"
+    saleAmount: "Completed the front-end of SBYS23 website"
   },
   {
     name: "Nishat Nujhat",
