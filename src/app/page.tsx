@@ -89,7 +89,7 @@ export default function Home() {
           <section>
             <p>Recent Activities</p>
             <p className="text-sm text-gray-400">
-              Highlight of this week: SBYS2023's vendor list is confirmed
+              Highlight of this week: SBYS2023 vendor list is confirmed
             </p>
           </section>
           {uesrSalesData.map((d, i) => (
