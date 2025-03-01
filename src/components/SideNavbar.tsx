@@ -11,6 +11,7 @@ import {
   LayoutDashboard,
   UsersRound,
   Settings,
+  Contact,
   ChevronRight
 } from "lucide-react";
 import { Button } from "./ui/button";
@@ -45,7 +46,7 @@ export default function SideNavbar({}: Props) {
         links={[
           {
             title: "Dashboard",
-            href: "/",
+            href: "/home",
             icon: LayoutDashboard,
             variant: "default"
           },
@@ -65,6 +66,12 @@ export default function SideNavbar({}: Props) {
             title: "Settings",
             href: "/settings",
             icon: Settings,
+            variant: "ghost"
+          },
+          {
+            title: "Account",
+            href: "/login",
+            icon: Contact,
             variant: "ghost"
           }
         ]}
