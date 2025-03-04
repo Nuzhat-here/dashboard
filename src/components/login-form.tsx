@@ -70,7 +70,7 @@ export function LoginForm({
           <Input id="password" type="password" name="password" required />
         </div>
         <Button type="submit" className="w-full"> 
-        <a href="/dashboard"> Login </a>
+        <a href="/home"> Login </a>
         </Button>
         {error && <p className="text-red-500 text-center mt-2">{error}</p>}
       </div>
